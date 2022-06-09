@@ -6,6 +6,11 @@ h4 {
   color: #525252;
 }
 
+h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 p {
   font-family: monospace;
 }
@@ -22,7 +27,7 @@ body {
   color: rgb(0, 0, 0);
   padding: 15px 32px;
   text-align: top;
-  height: 350px;
+  height: 50px;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
@@ -35,7 +40,7 @@ body {
   color: rgb(0, 0, 0);
   padding: 15px 32px;
   text-align: top;
-  height: 350px;
+  height: 50px;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
@@ -48,7 +53,7 @@ body {
   color: rgb(0, 0, 0);
   padding: 15px 32px;
   text-align: top;
-  height: 350px;
+  height: 50px;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
@@ -61,7 +66,7 @@ body {
   color: rgb(0, 0, 0);
   padding: 15px 32px;
   text-align: top;
-  height: 350px;
+  height: 50px;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
@@ -79,7 +84,7 @@ body {
 }
 
 .imagem-centro {
-  
+
   display: block;
   border-radius: 35px 35px 35px 35px;
   margin-left: auto;
@@ -99,8 +104,9 @@ body {
   background-color: #525252;
 }
 
-.body-cor {
-  /* background-color: #ffffff; */
+.posicao {
+  position: relative;
+  top: 80px;
 }
 
 .redessociais {
@@ -109,16 +115,22 @@ body {
   padding: 10px;
 }
 
-.redes-cor {
-  /* background-color: #4b788f; */
-}
-.redes-nome-cor{
+.redes-nome-cor {
+  position: relative;
+  top: 120px;
   border-radius: 10px 10px 10px 10px;
   color: rgb(255, 255, 255);
   background-color: #525252;
   padding: 20px;
+  text-align: center;
+  opacity: 1.0;
 }
-.logo-header {
-  max-width: 15%;
-  height: auto;
+.posicao-meio {
+position: relative;
+top: 50px;
+}
+.posicao-logo{
+  position: relative;
+  max-height: 150px;
+  left: 150px;
 }
