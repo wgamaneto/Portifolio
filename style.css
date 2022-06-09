@@ -15,6 +15,7 @@ body {
 }
 
 .button-linkedin {
+  border-radius: 10px 10px 10px 10px;
   background-color: #0077b5;
   border: none;
   color: rgb(0, 0, 0);
@@ -27,6 +28,7 @@ body {
 }
 
 .button-github {
+  border-radius: 10px 10px 10px 10px;
   background-color: #100000;
   border: none;
   color: rgb(0, 0, 0);
@@ -39,6 +41,7 @@ body {
 }
 
 .button-instagram {
+  border-radius: 10px 10px 10px 10px;
   background-color: #e4405f;
   border: none;
   color: rgb(0, 0, 0);
@@ -51,8 +54,8 @@ body {
 }
 
 .button-twitter {
+  border-radius: 10px 10px 10px 10px;
   background-color: #1da1f2;
-  /* Green */
   border: none;
   color: rgb(0, 0, 0);
   padding: 15px 32px;
@@ -76,8 +79,9 @@ body {
 }
 
 .imagem-centro {
-  border-radius: 50%;
+  
   display: block;
+  border-radius: 35px 35px 35px 35px;
   margin-left: auto;
   margin-right: auto;
   width: 300px;
@@ -90,7 +94,7 @@ body {
 }
 
 .header-cor {
-  /* background-color: #39627f; */
+ 
 }
 
 .body-cor {
@@ -107,7 +111,7 @@ body {
   /* background-color: #4b788f; */
 }
 .redes-nome-cor{
-  
+  border-radius: 10px 10px 10px 10px;
   color: rgb(255, 255, 255);
   background-color: #000000;
   padding: 20px;
